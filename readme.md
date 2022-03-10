@@ -1,3 +1,7 @@
+![cmd_LrwdFMs8O0](https://user-images.githubusercontent.com/63096336/157661429-a298c9c8-d79d-4744-a4b8-7d00bf42df4d.png)
+
+
+
 This is autolocker for valorant
 Works on 1920x1080 i dont know about other resolutions 
 just chance it 
