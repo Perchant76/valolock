@@ -41,7 +41,7 @@ elif a ==("2"):
         if not pyautogui.locateOnScreen(f"{path}/agents/breach.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/breach.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(627, 921)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 
@@ -52,7 +52,7 @@ elif a == ("3"):
         if not pyautogui.locateOnScreen(f"{path}/agents/cypher.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/cypher.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(873, 922)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("4"):
@@ -62,7 +62,7 @@ elif a == ("4"):
         if not pyautogui.locateOnScreen(f"{path}/agents/jett.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/jett.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(968, 927)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("6"):
@@ -71,7 +71,7 @@ elif a == ("6"):
         if not pyautogui.locateOnScreen(f"{path}/agents/neon.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/neon.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(1131, 927)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("7"):
@@ -80,7 +80,7 @@ elif a == ("7"):
         if not pyautogui.locateOnScreen(f"{path}/agents/phoenix.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/phoenix.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(1299, 929)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("9"):
@@ -89,7 +89,7 @@ elif a == ("9"):
         if not pyautogui.locateOnScreen(f"{path}/agents/raze.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/raze.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(628, 1006)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("10"):
@@ -98,7 +98,7 @@ elif a == ("10"):
         if not pyautogui.locateOnScreen(f"{path}/agents/viper.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/viper.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(963, 1011)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("11"):
@@ -107,7 +107,7 @@ elif a == ("11"):
         if not pyautogui.locateOnScreen(f"{path}/agents/yoru.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/yoru.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(1040, 1014)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("12"):
@@ -116,7 +116,7 @@ elif a == ("12"):
         if not pyautogui.locateOnScreen(f"{path}/agents/chamber.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/chamber.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(789, 922)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("13"):
@@ -125,7 +125,7 @@ elif a == ("13"):
         if not pyautogui.locateOnScreen(f"{path}/agents/sage.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/sage.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(794, 1005)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("14"):
@@ -134,7 +134,7 @@ elif a == ("14"):
         if not pyautogui.locateOnScreen(f"{path}/agents/sova.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/sova.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(871, 1004)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("15"):
@@ -143,7 +143,7 @@ elif a == ("15"):
         if not pyautogui.locateOnScreen(f"{path}/agents/astra.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/astra.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(1123, 1006)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("16"):
@@ -152,15 +152,16 @@ elif a == ("16"):
         if not pyautogui.locateOnScreen(f"{path}/agents/killjoy.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/killjoy.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(1211, 1007)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("17"):
-  while 1<2:
-    if not pyautogui.locateOnScreen(f"{path}/agents/skye.png"):
-      repeat
+    print("start game...")
+    while 1<2:
+        if not pyautogui.locateOnScreen(f"{path}/agents/skye.png"):
+            repeat
     if pyautogui.locateOnScreen(f"{path}/agents/skye.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(1304, 1012)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 elif a == ("18"):
@@ -169,7 +170,7 @@ elif a == ("18"):
         if not pyautogui.locateOnScreen(f"{path}/agents/reyna.png"):
             repeat
         if pyautogui.locateOnScreen(f"{path}/agents/reyna.png"):
-            pyautogui.doubleClick(711, 927)
+            pyautogui.doubleClick(710, 1023)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
 
