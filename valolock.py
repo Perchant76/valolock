@@ -155,14 +155,14 @@ elif a == ("16"):
             pyautogui.doubleClick(711, 927)
             pyautogui.moveTo(969, 812)
             pyautogui.click(969, 812)
-#elif a == ("17"):
-#  while 1<2:
-#    if not pyautogui.locateOnScreen(f"{path}/agents/skye.png"):
-#      repeat
-#    if pyautogui.locateOnScreen(f"{path}/agents/skye.png"):
-#            pyautogui.doubleClick(711, 927)
-#            pyautogui.moveTo(969, 812)
-#            pyautogui.click(969, 812)
+elif a == ("17"):
+  while 1<2:
+    if not pyautogui.locateOnScreen(f"{path}/agents/skye.png"):
+      repeat
+    if pyautogui.locateOnScreen(f"{path}/agents/skye.png"):
+            pyautogui.doubleClick(711, 927)
+            pyautogui.moveTo(969, 812)
+            pyautogui.click(969, 812)
 elif a == ("18"):
     print("start game...")
     while 1<2:
