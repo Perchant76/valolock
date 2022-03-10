@@ -15,7 +15,7 @@ made by Perchant76
 works on 1920x1080
 "be a dickhead atomaticly"
 """)
-print("path example: C:/Users/Perchant76/Documents/valorant auto lock")
+print("path example: C:/Users/Perchant76/Documents/valolock")
 path = input("insert path to this file> ")
 print("""
 [1] = Brimtone [10] = Viper
