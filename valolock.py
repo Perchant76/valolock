@@ -11,7 +11,8 @@ print ("""
  ╚████╔╝ ██║  ██║███████╗╚██████╔╝███████╗╚██████╔╝╚██████╗██║  ██╗
   ╚═══╝  ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
 made by Perchant76
-tried only on 1920x1080
+works on 1920x1080
+"be a dickhead atomaticly"
 """)
 print("path example: C:/Users/Perchant76/Documents/valorant auto lock")
 path = input("insert path to this file> ")
