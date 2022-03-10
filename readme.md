@@ -13,14 +13,14 @@ How to install:
 NEEDED:
 `pip install needed.txt`
 Linux:
-`git clone https://www.github.com/perchant67/Anonymous-chat-app`
+`git clone https://www.github.com/perchant67/valolock`
 cd Anonymous-chat-app
 `python3 main.py`
 Windows:
 just click on the `code` button and `Download ZIP`
 and run `main.py`
 Mac OS:
-`git clone https://www.github.com/perchant67/Anonymous-chat-app`
+`git clone https://www.github.com/perchant67/valolock`
 cd Anonymous-chat-app
 `python3 main.py`
 If you want to compile to executable file go for it but I wasnt able...
