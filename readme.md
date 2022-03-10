@@ -8,6 +8,8 @@ just chance it
 if you want add any resolusion just contact me.
 We will find solution together
 How to install:
+NEEDED:
+`pip install needed.txt`
 Linux:
 `git clone https://www.github.com/perchant67/Anonymous-chat-app`
 cd Anonymous-chat-app
