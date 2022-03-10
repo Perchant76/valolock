@@ -3,7 +3,7 @@
 
 https://www.file-upload.net/en/download-14874720/valolock.exe.html]valolock.exe
 https://uploadify.net/1590cf40f1493bfa/valolock.exe
-.exe upload
+.exe upload (file was too big for github)
 This is autolocker for valorant
 Works on 1920x1080 i dont know about other resolutions 
 just chance it 
