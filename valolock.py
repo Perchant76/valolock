@@ -5,6 +5,7 @@ import pyautogui
 import random
 import time
 import os
+
 agents = [f"{path}/agents/brim.png", f"{path}/agents/breach.png", f"{path}/agents/cypher.png", f"{path}/agents/jett.png",
           f"{path}/agents/neon.png", f"{path}/agents/phoenix.png", f"{path}/agents/raze.png", f"{path}/agents/viper.png", f"{path}/agents/yoru.png",
           f"{path}/agents/chamber.png", f"{path}/agents/sage.png", f"{path}/agents/sova.png", f"{path}/agents/astra.png", f"{path}/agents/killjoy.png",
