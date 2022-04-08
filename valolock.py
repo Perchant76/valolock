@@ -1,8 +1,13 @@
-from http.client import PAYMENT_REQUIRED
+from pydoc import locate
 from cv2 import repeat
 import pyautogui
+import random
 import time
 import os
+agents = ["/agents/brim.png", "/agents/breach.png", "/agents/cypher.png", "/agents/jett.png",
+          "/agents/neon.png", "/agents/phoenix.png", "/agents/raze.png", "/agents/viper.png", "/agents/yoru.png",
+          "/agents/chamber.png", "/agents/sage.png", "/agents/sova.png", "/agents/astra.png", "/agents/killjoy.png",
+          "/agents/skye.png", "/agents/reyna.png"]
 os.system("cls")
 print("""
 ██╗   ██╗ █████╗ ██╗      ██████╗ ██╗      ██████╗  ██████╗██╗  ██╗
@@ -12,13 +17,12 @@ print("""
  ╚████╔╝ ██║  ██║███████╗╚██████╔╝███████╗╚██████╔╝╚██████╗██║  ██╗
   ╚═══╝  ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝
 made by Perchant76
-works on 1920x1080
-"be a dickhead atomaticly"
+tried only on 1920x1080
 """)
-print("path example: C:/Users/Perchant76/Documents/valolock")
-path = input("insert path to this file> ")
+#print("path example: C:/Users/Perchant76/Documents/valorant auto lock")
+#path = input("insert path to this file> ")
 print("""
-[1] = Brimtone [10] = Viper
+[1] = Brimtone [10] = Viper [0] = RANDOM
 [2] = Breach   [11] = Yoru 
 [3] = Cypher   [12] = Chamber
 [4] = Jett     [13] = Sage
@@ -30,180 +34,186 @@ print("""
 """)
 a = input("agent you want to instalock> ")
 if a == ("1"):
-    print("start game...")
-    while 1 < 5:
-        if pyautogui.locateOnScreen(f"{path}/agents/brim.png"):
+    def z():
+        print("start game...")
+        while 1 < 5:
             time.sleep(0.1)
-            pyautogui.click(711, 927)
-            pyautogui.click(711, 927)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if pyautogui.locateOnScreen("/agents/brim.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("2"):
-    print("start game...")
-    while 1 < 2:
-        # time.sleep(0.1)
-        if not pyautogui.locateOnScreen(f"{path}/agents/breach.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/breach.png"):
+    def b():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(627, 921)
-            pyautogui.click(627, 921)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/breach.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/breach.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
+
 elif a == ("3"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/cypher.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/cypher.png"):
+    def c():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(873, 922)
-            pyautogui.click(873, 922)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/cypher.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/cypher.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("4"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/jett.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/jett.png"):
+    def d():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(968, 927)
-            pyautogui.click(968, 927)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/jett.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/jett.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("6"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/neon.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/neon.png"):
+    def e():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(1131, 927)
-            pyautogui.click(1131, 927)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/neon.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/neon.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("7"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/phoenix.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/phoenix.png"):
+    def f():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(1299, 929)
-            pyautogui.click(1299, 929)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/phoenix.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/phoenix.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("9"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/raze.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/raze.png"):
+    def g():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(628, 1006)
-            pyautogui.click(628, 1006)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/raze.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/raze.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("10"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/viper.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/viper.png"):
+    def h():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(963, 1011)
-            pyautogui.click(963, 1011)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/viper.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/viper.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("11"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/yoru.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/yoru.png"):
+    def i():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(1040, 1014)
-            pyautogui.click(1040, 1014)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/yoru.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/yoru.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("12"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/chamber.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/chamber.png"):
+    def j():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(789, 922)
-            pyautogui.click(789, 922)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/chamber.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/chamber.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("13"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/sage.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/sage.png"):
+    def k():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(794, 1005)
-            pyautogui.click(794, 1005)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/sage.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/sage.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("14"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/sova.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/sova.png"):
+    def l():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(871, 1004)
-            pyautogui.click(871, 1004)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/sova.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/sova.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("15"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/astra.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/astra.png"):
+    def m():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(1123, 1006)
-            pyautogui.click(1123, 1006)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/astra.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/astra.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("16"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/killjoy.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/killjoy.png"):
+    def n():
+        print("start game...")
+        while 1 < 2:
             time.sleep(0.1)
-            pyautogui.click(1211, 1007)
-            pyautogui.click(1211, 1007)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
+            if not pyautogui.locateOnScreen("/agents/killjoy.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/killjoy.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
 elif a == ("17"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/skye.png"):
-            repeat
-    if pyautogui.locateOnScreen(f"{path}/agents/skye.png"):
-        time.sleep(0.1)
-        pyautogui.click(1304, 1012)
-        pyautogui.click(1304, 1012)
+    def o():
+        print("start game...")
+        while 1 < 2:
+            if not pyautogui.locateOnScreen("/agents/skye.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/skye.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
+elif a == ("18"):
+    def p():
+        print("start game...")
+        while 1 < 2:
+            if not pyautogui.locateOnScreen("/agents/reyna.png"):
+                repeat
+            if pyautogui.locateOnScreen("/agents/reyna.png"):
+                pyautogui.doubleClick(711, 927)
+                pyautogui.moveTo(969, 812)
+                pyautogui.click(969, 812)
+elif a == ("0"):
+    xy = random.choice(agents)
+    if not pyautogui.locateAllOnScreen(xy):
+        repeat
+    if pyautogui.locateAllOnScreen(xy):
+        pyautogui.doubleClick(xy)
         pyautogui.moveTo(969, 812)
         pyautogui.click(969, 812)
-elif a == ("18"):
-    print("start game...")
-    while 1 < 2:
-        if not pyautogui.locateOnScreen(f"{path}/agents/reyna.png"):
-            repeat
-        if pyautogui.locateOnScreen(f"{path}/agents/reyna.png"):
-            time.sleep(0.1)
-            pyautogui.click(710, 1023)
-            pyautogui.click(710, 1023)
-            pyautogui.moveTo(969, 812)
-            pyautogui.click(969, 812)
 
 else:
     print("invalid agent")
