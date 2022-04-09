@@ -16,10 +16,12 @@ cd Anonymous-chat-app
 `python3 main.py`
 Windows:
 just click on the `code` button and `Download ZIP`
-and run `main.py`
+Download release `valolock.exe`
+run `pip install needed.txt` in cmd
+!!! Make sure valolock.exe and agents folder are in same directory
 Mac OS:
 `git clone https://www.github.com/perchant67/valolock`
-cd Anonymous-chat-app
+cd valolock
 `python3 valolock.py`
 
 after you open it it will ask you for directory just insert the `.../valolock` 
