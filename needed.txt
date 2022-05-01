@@ -2,3 +2,5 @@ time
 os
 random
 pyautogui
+opencv-python
+
